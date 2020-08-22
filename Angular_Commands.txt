@@ -1,0 +1,26 @@
+1) Angular is a framework which allows you to create reactive, single page applications.
+
+here, every change, is rendered in the browser.
+
+It gives the user a very reactive user experience (UX).
+====================================
+JavaScript is much faster than having to reach out to a server for every page change and for every new piece of data you want to display. Therefore, this approach allows you to create web applications
+
+
+If you do need some data from a server, you simply load it in the background so that the user never leaves this experience of having a reactive web application to use.
+==========================================
+
+Well, JavaScript changes the DOM, changes whatever is displayed here (in the browser), by changing the HTML code during runtime (so to say). 
+
+That is why you never see the refresh icon on the top-left spin; because we're only changing the currently-loaded page. You can even see that if you inspect the source code of a page like this.
+==============
+We only have one single HTML element which doesn't seem to be a built-in one (a native one), but that's Angular doing its job.
+-------------------------------
+2)Why do we have all these angular weird numbers does it mean that angular was reinvented eight times?
+
+since angular 1 No this is not the case instead since the release of angular to the angle or a team simply adheres to versioning scheme where a new word of angular is released every six months now that new word however is not a complete rewrite it does not change everything.
+
+Indeed most updates change almost nothing only some behind the scenes stuff or add some new features without breaking existing features.
+
+Indeed angular 9 is pretty much the same as angular 2.
+--------------------------------------------------------------------
