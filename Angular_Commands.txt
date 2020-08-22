@@ -24,3 +24,40 @@ Indeed most updates change almost nothing only some behind the scenes stuff or a
 
 Indeed angular 9 is pretty much the same as angular 2.
 --------------------------------------------------------------------
+3)First project:-
+
+npm install -g @angular/cli
+ng new my-first-project
+cd my-first-project
+ng serve
+
+http://localhost:4200/
+-------------------------------
+4)App root:-
+==========================
+<app-root _nghost-ohb-c16="" ng-version="10.0.11"></app-root>
+
+//Only app-root is visible when you check page source by  inspecting
+
+//actually is this index.html file in the src folder. Here we also see app-root. The script imports are missing because they are injected dynamically.
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',//IMP
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'my-first-project';
+}
+
+--------------------------------------
+5)2-WAY DATA BINDING:- (ngModel directive)
+
+<input type="text" [(ngModel)]="name">  
+ <!-- no space after = -->
+<p>{{name}}</p>
+
+
+-----------------
