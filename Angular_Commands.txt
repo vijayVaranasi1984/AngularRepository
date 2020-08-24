@@ -61,3 +61,72 @@ export class AppComponent {
 
 
 -----------------
+6) Adding CSS styles:-
+
+angular.json
+
+ "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+			
+			
+----------------------------------------------			
+ 
+----------------------------
+9)Decorator/Component:-
+===========================
+==============================
+import { Component } from '@angular/core';
+
+
+@Component({
+    selector: 'app-server',
+    templateUrl: './server.component.html'
+})
+export class ServerComponent {
+
+}
+
+in app.component.html:-
+
+<h3>I'm in app  component</h3>
+<hr>
+<app-server></app-server>// adding server.component.html component
+
+
+----------------------------------
+10) geenrating components with command line:-
+===================
+====================
+
+ng generate component servers 
+ng g c servers
+
+it AUTo adds in app.module.ts this createed compeonet
+
+------------------------------------
+11)SElectors:-
+
+ selector: 'app-servers', // as a ELEMENT
+  selector: '.app-servers', // as a CLASS
+  selector: '[app-servers]',// As a attribute
+  
+---------------------------------------  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
